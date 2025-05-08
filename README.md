@@ -64,7 +64,7 @@ Such analysis could be valuable for understanding maintainability, technical deb
 - Visualizations: see `plots/`
 - Data files: see `data/`
 - Code & analysis: `src/notebook.ipynb`
-- AI transcript: `chatgpt_transcript.pdf`
+- AI transcript: `[chatgpt_transcript](https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44)`
 
 ---
 
