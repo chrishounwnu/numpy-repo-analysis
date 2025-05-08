@@ -27,7 +27,7 @@ These challenges were addressed step by step with appropriate tools and clear te
 I used ChatGPT to help structure the analysis, debug PyDriller issues, and suggest clear data visualizations.
 
 A full conversation of the session is included in this repository:  
-https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44 
+[https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44](https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44) 
 
 ---
 
@@ -35,13 +35,13 @@ https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44
 
 I chose the line plot showing monthly insertions and deletions (Plot 1).
 
-What surprised me was the extreme volatility visible throughout the entire timeline — with large spikes in both insertions and deletions, especially in recent years. 
+What surprised me was the extreme volatility visible throughout the entire timeline, with large spikes in both insertions and deletions, especially in recent years. 
 While I expected some variation due to new features and bug fixes, the amplitude and frequency of these spikes suggest major codebase overhauls or big refactorings.
 
 These fluctuations could be explained by:
 - Major version releases or large pull requests being merged
 - The use of automated tools generating/removing code
-- Legacy cleanups and transitions (e.g., moving to Python 3, or modularization)
+- Legacy cleanups and transitions (modularization)
 
 Despite the noise, it reveals important patterns about the development lifecycle of NumPy and shows clear bursts of high activity.
 
@@ -64,7 +64,7 @@ Such analysis could be valuable for understanding maintainability, technical deb
 - Visualizations: see `plots/`
 - Data files: see `data/`
 - Code & analysis: `src/notebook.ipynb`
-- AI transcript: `https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44`
+- AI transcript: `[https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44](https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44)`
 
 ---
 
