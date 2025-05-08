@@ -1,4 +1,4 @@
-# PhD Coding Exercise – Code Churn Analysis on NumPy Repository
+# Code Churn Analysis on NumPy Repository
 
 This project explores the evolution of code churn (lines of code added and removed) over time in the [NumPy](https://github.com/numpy/numpy) GitHub repository, in response to RQ3:  
 **"How does code churn (lines added/removed) fluctuate over time?"**
