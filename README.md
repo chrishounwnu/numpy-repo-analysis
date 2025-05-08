@@ -26,8 +26,8 @@ These challenges were addressed step by step with appropriate tools and clear te
 
 I used ChatGPT to help structure the analysis, debug PyDriller issues, and suggest clear data visualizations.
 
-A full PDF export of the session is included in this repository:  
-📄 [`chatgpt_transcript.pdf`](./chatgpt_transcript.pdf)
+A full conversation of the session is included in this repository:  
+https://chatgpt.com/share/681cb554-c250-8000-a672-4c4df3317f44 
 
 ---
 
