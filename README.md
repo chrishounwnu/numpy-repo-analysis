@@ -16,6 +16,7 @@ Several technical challenges were encountered:
 - Initially, I attempted to use `PyDriller`, but multiple import errors and conflicts with its `__init__.py` structure forced me to switch to `GitPython`, which proved more stable.
 - Working with a large repository like NumPy (over 38,000 commits) introduced performance delays, particularly in full commit-level extraction.
 - Heatmap visualizations were originally implemented with `seaborn`, but dependency issues in the environment led me to recreate the plot entirely with `matplotlib`.
+- Optimization/ Complexity time
 
 These challenges were addressed step by step with appropriate tools and clear testing strategies.
 
@@ -32,11 +33,17 @@ A full PDF export of the session is included in this repository:
 
 ### 3. Choose one of your plots: What do you find surprising, confusing, or ambiguous about it? What might explain this?
 
-The boxplot showing the distribution of monthly insertions and deletions revealed several strong outliers, especially in insertions.
+I chose the line plot showing monthly insertions and deletions (Plot 1).
 
-This was surprising because it indicated that some months had extremely large bursts of code addition — likely corresponding to major version releases, large-scale feature integrations, or bulk commits from core contributors.
+What surprised me was the extreme volatility visible throughout the entire timeline — with large spikes in both insertions and deletions, especially in recent years. 
+While I expected some variation due to new features and bug fixes, the amplitude and frequency of these spikes suggest major codebase overhauls or big refactorings.
 
-It emphasizes how churn is not evenly distributed, but rather concentrated in spikes.
+These fluctuations could be explained by:
+- Major version releases or large pull requests being merged
+- The use of automated tools generating/removing code
+- Legacy cleanups and transitions (e.g., moving to Python 3, or modularization)
+
+Despite the noise, it reveals important patterns about the development lifecycle of NumPy and shows clear bursts of high activity.
 
 ---
 
